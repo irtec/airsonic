@@ -20,6 +20,8 @@ echo -e "${jeshile} │   Detected a $os System   │ \e[0m"
 echo -e "${jeshile} └───────────────────────────┘ \e[0m"
 sleep 3
 
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
 apt-get install openjdk-8-jre -y
 sudo update-alternatives --config java
 cd /var/opt
