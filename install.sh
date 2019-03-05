@@ -1,6 +1,4 @@
 #!/bin/bash
-# Original script by fornesia, rzengineer and fawzya
-# # Mod by IRTech Network & Bustami Arifin
 # ==================================================
 
 echo " "
